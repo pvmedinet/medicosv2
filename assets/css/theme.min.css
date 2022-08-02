@@ -29,7 +29,7 @@
     --bs-gray-900: #1e2022;
     --bs-primary: #243f6d;
     --bs-secondary: #71869d;
-    --bs-success: #00c9a7;
+    --bs-success: #7093FF;
     --bs-info: #09a5be;
     --bs-warning: #f5ca99;
     --bs-danger: #ed4c78;
@@ -37,7 +37,7 @@
     --bs-dark: #243f6d;
     --bs-primary-rgb: 36,63,109;
     --bs-secondary-rgb: 113,134,157;
-    --bs-success-rgb: 0,201,167;
+    --bs-success-rgb: 112,147,255;
     --bs-info-rgb: 9,165,190;
     --bs-warning-rgb: 245,202,153;
     --bs-danger-rgb: 237,76,120;
@@ -3371,14 +3371,14 @@ textarea.form-control-lg {
 
 .btn-secondary {
     color: #fff;
-    background-color: #71869d;
-    border-color: #71869d
+    background-color: #7093FF;
+    border-color: #7093FF
 }
 
 .btn-secondary:hover {
     color: #fff;
-    background-color: #607285;
-    border-color: #5a6b7e
+    background-color: #7496fc;
+    border-color: #7496fc
 }
 
 .btn-check:focus+.btn-secondary,.btn-secondary:focus {
@@ -23042,8 +23042,8 @@ input[type=number] {
 
 .navbar-brand-logo {
     width: 100%;
-    min-width: 7.5rem;
-    max-width: 7.5rem
+    min-width: 10rem;
+    max-width: 10rem
 }
 
 .navbar-brand-collapsed,.navbar-brand-on-scroll {
